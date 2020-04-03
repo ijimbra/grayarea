@@ -1,0 +1,51 @@
+div {
+  background: black;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+}
+
+.square1 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .square2 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .square3 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .square4 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .square5 {
+    width: 90px;
+    height: 90px;
+  }
+
+  .square6 {
+    width: 110px;
+    height: 110px;
+  }
+
+  .rotate {
+    animation: 1s linear infinite rotate;
+    position: relative;
+    transform-origin: 20% 200%;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(360deg)
+    }
+  }
